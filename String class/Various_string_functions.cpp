@@ -129,5 +129,8 @@ str6: strinion
 str6: These are test examples
 *
 *
-* As seen in the above code, we can get the length of the string by size() as well as length() but length() is preferred for strings. We can concat a string to another string by += or by append(), but += is slightly slower than append() because each time + is called a new string (creation of new buffer) is made which is returned that is a bit overhead in case of many append operation.
+* As seen in the above code, we can get the length of the string by size() as well as length() 
+* but length() is preferred for strings. We can concat a string to another string by += or by append(), 
+* but += is slightly slower than append() because each time + is called a new string (creation of new buffer) 
+* is made which is returned that is a bit overhead in case of many append operation.
 */
