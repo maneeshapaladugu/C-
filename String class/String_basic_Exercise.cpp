@@ -30,12 +30,12 @@ int main()
 	//Case 4:
 	string s5,s6;
 	s5 = "India";
-	s6 = "India";
+	s6 = "Paris";
 	
 	if(s5 == s6)
 		cout << "Strings are equal" << endl;
 	else
-		cout << "Strings are equal" << endl;
+		cout << "Strings are not equal" << endl;
 	cout << endl;
 
 	//Case 5:
@@ -53,7 +53,7 @@ str: Hello world
 s1 = My Program
 s2 = My Program
 s3 = WelcomeIndia
-Strings are equal
+Strings are not equal
 
 S
 t
