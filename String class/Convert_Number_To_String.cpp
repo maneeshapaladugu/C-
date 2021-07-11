@@ -41,7 +41,7 @@ void ConversionUsingto_string(int i_val, float f_val)
 }
 
 /*Method 3 : Using boost lexical cast
-Similar to string conversion, the ” lexical_cast() ” function remains the same, but this time argument list modifies to “lexical_cast(numeric_var).*/
+Boost library offers an inbuild function “lexical_cast(“string”)”, which directly converts a string to number. It returns an exception “bad_lexical_cast” in case of invalid input.*/
 void ConversionUsingBoostLexicalCast(int i_val, float f_val)
 {
 	//converting int to string
