@@ -2,10 +2,7 @@
 
 
 /*Polymorphism in C++ means, the same entity ( function or object ) behaves differently in different scenarios.
- *
- *
  *In a Runtime polymorphism, functions are called at the time the program execution. Hence, it is known as late binding or dynamic binding. 
- *
  * Function overriding is a part of runtime polymorphism. In function overriding, more than one method has the same name with different types of the parameter list.
 
  *In function overriding, we give the new definition to base class function in the derived class. At that time, we can say the base function has been overridden.
