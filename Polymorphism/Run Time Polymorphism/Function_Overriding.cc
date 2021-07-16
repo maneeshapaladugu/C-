@@ -8,7 +8,9 @@
  *
  * Function overriding is a part of runtime polymorphism. In function overriding, more than one method has the same name with different types of the parameter list.
 
- *In function overriding, we give the new definition to base class function in the derived class. At that time, we can say the base function has been overridden. It can be only possible in the ‘derived class’. In function overriding, we have two definitions of the same function, one in the superclass and one in the derived class. The decision about which function definition requires calling happens at runtime.
+ *In function overriding, we give the new definition to base class function in the derived class. At that time, we can say the base function has been overridden.
+ It can be only possible in the ‘derived class’. In function overriding, we have two definitions of the same function, one in the superclass and one in the derived class.
+ The decision about which function definition requires calling happens at runtime.
 */
 
 
