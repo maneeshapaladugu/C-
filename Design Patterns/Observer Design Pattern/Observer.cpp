@@ -1,7 +1,7 @@
 /*
   Program to implement Observer design pattern
 
-  Observer is a behavioral desing pattern, let's you define a subscription mechanism
+  Observer is a behavioral design pattern, let's you define a subscription mechanism
   to notify multiple objects about any events that happen to the object they're observing.
 
   Subject is also called the Publisher and Observer is often called the Subscriber and vice versa.
