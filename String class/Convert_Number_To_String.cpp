@@ -41,7 +41,7 @@ void ConversionUsingto_string(int i_val, float f_val)
 }
 
 /*Method 3 : Using boost lexical cast
-Boost library offers an inbuild function “lexical_cast(“string”)”, which directly converts a string to number. It returns an exception “bad_lexical_cast” in case of invalid input.*/
+Here, Boost library offers an inbuild function “lexical_cast(number)”, which directly converts a number to string. It returns an exception “bad_lexical_cast” in case of invalid input.*/
 void ConversionUsingBoostLexicalCast(int i_val, float f_val)
 {
 	//converting int to string
@@ -68,6 +68,16 @@ int main()
 
 	//Conversion using boost lexical cast
 	ConversionUsingBoostLexicalCast(i_val, f_val);
+
+	float f = 10.235;
+	string s = "78.495";
+
+	float new_f = boost::lexical_cast<float>(s);
+	string new_s = boost::lexical_cast<string>(f);
+	
+	cout << endl << "new_f: " << new_f << endl;
+	cout << "new_s " << new_s << endl;
+	//int x = boost::lexical_cast<int>(f); // returns bad_lexical_cast exception
 }
 
 
@@ -80,4 +90,11 @@ The float in string is: 30.500000
 
 The integer in string is: 2016
 The float in string is: 30.5
+
+new_f: 78.495
+new_s 10.2349997
+terminate called after throwing an instance of 'boost::wrapexcept<boost::bad_lexical_cast>'
+  what():  bad lexical cast: source type value could not be interpreted as target
+Aborted (core dumped)
+
 */
