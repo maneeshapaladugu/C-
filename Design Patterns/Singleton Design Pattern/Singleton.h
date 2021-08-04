@@ -4,7 +4,7 @@
 class Singleton {
   /*
     The Singleton's constructor should always be private to prevent direct
-    construction calls with the 'new' operator.
+    construction calls with the 'new' operator or during object creation.
   */
 private:
 
