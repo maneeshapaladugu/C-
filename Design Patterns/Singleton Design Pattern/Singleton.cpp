@@ -6,6 +6,9 @@
 
   The Singleton class defines the 'GetInstance' method that serves as an alternative
   to constructor and lets clients access the same instance of this class over and over.
+  
+  Why would anyone want to control how many instances a class has? 
+  The most common reason for this is to control access to some shared resource—for example, a database or a file.
 */
 
 #include <iostream>
