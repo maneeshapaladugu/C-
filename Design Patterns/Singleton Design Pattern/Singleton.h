@@ -26,6 +26,6 @@ public:
 
   static Singleton* getInstance(const std::string& value);
 
-  std::string getValue() const;
+  std::string getValue() const; // Data members in const member function are const by default to protect from modification.
 };
 #endif
